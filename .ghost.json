@@ -1,10 +1,10 @@
 {
   "development": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://finiteloop-trial.herokuapp.com",
+    "contentApiKey": "5e59a2347e06decc61d9f824a8"
   },
   "production": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://finiteloop-trial.herokuapp.com",
+    "contentApiKey": "5e59a2347e06decc61d9f824a8"
   }
 }
