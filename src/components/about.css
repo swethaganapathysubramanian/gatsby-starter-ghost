@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+html {
+    background-color: white;
+}
+.header {
+    height: 30vh;
+    background-image: radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgba(153, 103, 186, 1) 41.2%,
+        rgba(0, 113, 227, 1) 90%
+    );
+}
+
+.header p {
+    position: absolute;
+    top: 12%;
+    left: 2%;
+    color: white;
+    font-family: "Roboto Slab", serif;
+}
+
+.studio {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.studio .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.studio article {
+    width: 50%;
+    line-height: 1.5;
+}
+
+.studio p {
+    padding: 0 15% 0 15%;
+    font-family: "Roboto Slab", serif;
+    font-size: 120%;
+}
+
+.team {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.members {
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.review {
+    padding-top: 5%;
+    display: flex;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.card {
+    text-align: center;
+    background: #f3f3f3;
+    border-radius: 8px;
+    display: flex;
+    padding: 2%;
+    margin: 3%;
+}
+
+.card p {
+    padding: 5% 5% 5% 5%;
+}
+
+.card img {
+    height: 500px;
+    width: 1000px;
+}
+
+.card p img {
+    height: 500px;
+    width: auto;
+}
